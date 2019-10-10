@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/custom.css">
+
+    <title>Moses Blog</title>
+	
+  </head>
+  <body>
+    
+<br>
+<hr>
+<br>
+
+
+	
+		<div class="row">
+			<div class="col">
+			
+			
+			<div class="w3-content w3-section" style="max-width:500px">
+			<img class="mySlides" src="./PIC/mapu 1.png" style="width:100%">
+			<img class="mySlides" src="./PIC/mapu 2.png" style="width:100%">
+			<img class="mySlides" src="./PIC/mapu 3.png" style="width:100%">
+			</div>
+			</div>
+			
+			<div class="col" style="font-family: 'Abhaya Libre';font-size: 16px;">
+				<p>The history of the Mapungubwe Cultural Landscape dates back 210 million years ago when one of the earliest plant-eating dinosaurs, 
+Plateosauravus (Euskelosaurus), was known to have lived in the area.</p>
+
+<p>The Mapungubwe area became a focus of agricultural research in the 1920s through the efforts of the botanist Illtyd Buller Pole-Evans.
+Pole Evans was instrumental in the creation of the Botanical Survey Advisory Committee,
+which was tasked with coordinating botanical research throughout the Union of South Africa. 
+One of the network of botanical and research stations set up by the Botanical Survey was situated in the Mapungubwe area.
+ At the request of General Smuts, the government set aside a block of nine farms in this area as a preserve for wildlife and natural vegetation in 1918.
+ A few years later this became known as the Dongola Botanical Reserve.</p>
+
+<p>Pole Evans set about expanding the Dongola Botanical Reserve.
+ By the early 1940s, the reserve had grown to include 27 farms, including Greefswald,
+ the property on which the Mapungubwe Hill is situated.
+ Pole Evans lobbied to have the reserve proclaimed as a national park,
+ with the support of Prime Minister Jan Smuts. 
+In 1944, Minister of Lands Andrew Conroy proposed the formation of the Dongola Wild Life Sanctuary,
+ which would include 124 farms, 86 of which were privately owned.
+ This proposal was strongly opposed by the National Party, then the official opposition in parliament and the National Parks Board of Trustees.
+ In one of the longest running debates in the history of the South African parliament,
+ supporters argued that it was necessary to conserve the country's natural assets, 
+that the land set aside for the proposed reserve was unsuitable for agricultural purposes and that the area had a rich archaeology which should be protected. 
+Those opposed to the establishment of the reserve argued that it was unacceptable to alienate agricultural land for wildlife conservation,
+ to expropriate private land or to evict people from land they had occupied for generations. 
+The debate, which has become known as the "Battle of Dongola", 
+resulted in the declaration of a much reduced area as the Dongola Wildlife Sanctuary, 
+after members of the ruling United Party voted in favour of the proposal.
+ The National Party won the elections in 1948,
+ and the sanctuary was abolished in 1949. Expropriated farms were returned to their original farmers, 
+farms owned by the state were allocated for resettlement and funds returned to donors.</p>	
+
+			</div>
+			</div>
+	
+
+<br>
+<hr>
+<div class="container">
+  <h1>Blogging</h1>
+
+  <blockquote class="blockquote">
+    <p>Blogs have been integrated into all cultures today and are accessible from any part of the world. They have become such an integral part of our societies such that almost everyone reads blogs. Whether you are looking for weather forecasts or digital marketing, blogs have got you covered.</p>
+    
+  </blockquote>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jQuery.js" ></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+	
+	<script>
+	var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+
+	</script>
+	
+
+  </body>
+</html>
